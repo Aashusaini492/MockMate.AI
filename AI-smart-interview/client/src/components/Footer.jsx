@@ -10,7 +10,7 @@ function Footer() {
             <h2 className='font-semibold'>MockMate.AI</h2>
         </div>
         <p className='text-gray-500 text-sm max-w-xl mx-auto'>
-  AI-powered interview preparation platform designed to improve
+          AI-powered interview preparation platform designed to improve
           communication skills, technical depth and professional confidence.
         </p>
 

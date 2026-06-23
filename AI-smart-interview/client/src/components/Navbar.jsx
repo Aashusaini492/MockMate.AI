@@ -81,6 +81,7 @@ function Navbar() {
                         {userData ? userData?.name.slice(0,1).toUpperCase() : <FaUserAstronaut size={16}/>}
                         
                     </button>
+                    
 
                     {showUserPopup && (
                         <div className='absolute right-0 mt-3 w-48 bg-white shadow-xl border border-gray-200 rounded-xl p-4 z-50'>
