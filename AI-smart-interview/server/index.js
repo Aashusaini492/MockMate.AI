@@ -11,9 +11,9 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 app.use(cors({
-    origin:true,
-    credentials:true
-}))
+    origin: "https://mock-mate-ai-project.vercel.app",
+    credentials: true,
+}));
 
 app.use(express.json())
 app.use(cookieParser())
